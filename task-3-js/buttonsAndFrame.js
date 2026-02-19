@@ -81,7 +81,6 @@ function resetButtons(teamButtons,activeButton){
             document.getElementById(`${teamCanvas}_A`).style.display = "block";
             //run first
             aniA(document.getElementById(`${teamCanvas}_A`));
-
             break;
           }
           case "2": {
