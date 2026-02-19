@@ -9,8 +9,8 @@ function setup_C() {
 function aniA(parentCanvas) {
 
   const container = document.querySelector("#ani_canv_A");
-  document.querySelector("h5").innerHTML = "<h5>“M A G I C is resistance. Magic sees unbearable realities, unbearable emotions, and makes them bearable; magic moves us toward creating impossible futures. Like the raccoon, I will do the best with what I am given. I will cast impossible spells.” – Maranda Elizabeth, “How Magic Helps Me Live with Pain and Trauma,” Medium, April 19. 2016</h5>";
 
+  document.querySelector("h5").innerHTML = "<h5> “Blood ends up on the sidewalk and it’s very difficult to paint blood. Its scary, it feels like you’re bleeding. But I had to do it because I believe in telling my story.” - Faith Ringgold</h5>"; 
   /* set scene */
   container.style.position = "relative";
   container.style.overflow = "hidden";
@@ -96,7 +96,7 @@ function aniA(parentCanvas) {
   
   /* TAB B CODE */
   function aniB(parentCanvas) {
-    document.querySelector("h5").innerHTML = "<h5>  M A G I C is a “tainted term” (alongside “superstition” and “occult”) and that these terms “were essentially reinvented during the period of the Enlightenment, in such a manner that they could serve to demarcate the ‘Other of science and rationality’” — Esotericism and the Academy (2012) </h5>";
+  document.querySelector("h5").innerHTML = "<h5>“M A G I C is resistance. Magic sees unbearable realities, unbearable emotions, and makes them bearable; magic moves us toward creating impossible futures. Like the raccoon, I will do the best with what I am given. I will cast impossible spells.” – Maranda Elizabeth, “How Magic Helps Me Live with Pain and Trauma,” Medium, April 19. 2016</h5>";
 
   const container = document.querySelector("#ani_canv_B");
   const can = document.querySelector("aniCanvas");
