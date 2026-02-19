@@ -44,7 +44,7 @@ function aniA(parentCanvas) {
     const height = canvas.height;
 
     // clear background
-    ctx.fillStyle = "rgb(0,0,30)";
+    ctx.fillStyle = "rgb(0,0,0)";
     ctx.fillRect(0, 0, width, height);
 
     let angle = 0;
@@ -71,11 +71,11 @@ function aniA(parentCanvas) {
       ctx.ellipse(x, y, w / 2, h / 2, 0, 0, Math.PI * 2);
 
       if (i % 9 === 0) {
-        ctx.fillStyle = "cornflowerblue";
-        ctx.shadowColor = "rgba(255,255,255,0.8)";
+        ctx.fillStyle = "black";
+        ctx.shadowColor = "rgba(180,230,255,150)";
       } else {
         ctx.fillStyle = "black";
-        ctx.shadowColor = "rgba(255,0,255,0.6)";
+        ctx.shadowColor = "rgba(200,150,255, 6000)";
       }
 
       ctx.shadowBlur = 10;
